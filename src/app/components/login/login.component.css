@@ -1,0 +1,23 @@
+.form_container{
+    display: flex;
+    width: 27%;
+    margin: auto;
+    border: 2px solid #cddae4;
+    margin-top: 5%;
+}
+.mat-form-field {
+    width: 100%;
+  }
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  .logo{
+      width: 100%;
+  }
+  .login_form{
+    padding: 20px;
+  }
