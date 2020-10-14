@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {ApiService} from '../../commonServices/api.service'
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
   hide = true;
-  constructor() { }
+  constructor(private api:ApiService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+  }
+
+  onLogin(){
+    this.api.postJson().subscribe((res:any)=>{
+      console.log(res,"res");
+    })
   }
 
 }

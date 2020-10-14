@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseURL:"djsd"
+  baseURL:"https://reqres.in/api/"
 };

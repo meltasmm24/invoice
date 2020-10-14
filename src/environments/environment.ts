@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  baseURL:"edekmden"
+  // baseURL:"https://reqres.in/api/"
+  baseURL:'http://localhost:3000/'
 };
 
 /*
